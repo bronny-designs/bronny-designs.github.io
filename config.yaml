@@ -54,7 +54,9 @@ Menus:
 
 params:
   title: "Bronny Builds"
-  description: Text about my cool site
+  description: Bronwynne's creations
+  images:
+  - /images/bronny.jpeg
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
