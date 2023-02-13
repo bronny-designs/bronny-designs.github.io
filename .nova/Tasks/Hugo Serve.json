@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "script" : "#!\/bin\/sh\n"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nhugo serve"
+    }
+  },
+  "openLogOnRun" : "start",
+  "persistent" : true
+}
