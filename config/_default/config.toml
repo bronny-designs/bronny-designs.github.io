@@ -134,7 +134,7 @@ enableRobotsTXT = true
     name = "Shop"
     url = "https://shop.bronny.design/"
     [menu.main.params]
-      class = "link--external"
+      external = true
     weight = 40
 
 [languages]
