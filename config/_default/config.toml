@@ -1,5 +1,5 @@
-baseURL = "http://localhost"
-copyright = "Copyright © 2021"
+baseURL = "http://bronny.design/"
+copyright = "🌙 Made with 💜💚 in Pittsburgh 🌆"
 title = "hugo-theme-gruvbox"
 #paginate = 10
 enableRobotsTXT = true
