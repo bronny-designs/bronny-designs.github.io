@@ -26,8 +26,8 @@ enableRobotsTXT = true
   #themeContrast = "medium"
   author = "Ashley Davis <ashe@bronny.design>"
   subtitle = "Bronny Designs website"
-  description = "Based on the Gruvbox Hugo theme"
-  images = ["/bronny.jpg"]
+  description = "A central hub for everything Bronwynne does!"
+  images = ["/bronny.jpeg"]
 
   [params.logo]
     text = "bronwynne"
