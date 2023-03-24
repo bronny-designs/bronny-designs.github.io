@@ -27,6 +27,7 @@ enableRobotsTXT = true
   author = "Ashley Davis <ashe@bronny.design>"
   subtitle = "Bronny Designs website"
   description = "Based on the Gruvbox Hugo theme"
+  images = ["/bronny.jpg"]
 
   [params.logo]
     text = "bronwynne"
