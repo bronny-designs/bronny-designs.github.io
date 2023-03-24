@@ -1,6 +1,6 @@
 baseURL = "http://bronny.design/"
 copyright = "🌙 Made with 💜💚 in Pittsburgh 🌆"
-title = "hugo-theme-gruvbox"
+title = "Bronny Designs"
 #paginate = 10
 enableRobotsTXT = true
 
@@ -24,9 +24,9 @@ enableRobotsTXT = true
   #themeColor = "blue"
   # soft medium hard, defaults to medium
   #themeContrast = "medium"
-  author = "Michael Schnerring"
-  subtitle = "Theme Demo"
-  description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+  author = "Ashley Davis <ashe@bronny.design>"
+  subtitle = "Bronny Designs website"
+  description = "Based on the Gruvbox Hugo theme"
 
   [params.logo]
     text = "bronwynne"
@@ -141,8 +141,3 @@ enableRobotsTXT = true
     weight = 10
     [languages.en.params.jsonResume]
       present = "present"
-  [languages.de]
-    languageName = "Deutsch"
-    weight = 20
-    [languages.de.params.jsonResume]
-      present = "heute"
