@@ -1,4 +1,4 @@
-baseURL = "http://bronny.design/"
+baseURL = "http://localhost/"
 copyright = "🌙 Made with 💜💚 in Pittsburgh 🌆"
 title = "Bronny Designs"
 #paginate = 10
@@ -21,7 +21,7 @@ enableRobotsTXT = true
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
   #defaultTheme = "light"
   # gray red green yellow blue purple aqua orange, defaults to blue
-  #themeColor = "blue"
+  themeColor = "yellow"
   # soft medium hard, defaults to medium
   #themeContrast = "medium"
   author = "Ashley Davis <ashe@bronny.design>"
@@ -113,27 +113,29 @@ enableRobotsTXT = true
     iconName = "mail"
     formatString = "mailto:?subject={title}&body={url}"
 
-# [menu]
-#   [[menu.main]]
-#     identifier = "blog"
-#     name = "Blog"
-#     url = "/blog"
-#     weight = 10
-#   [[menu.main]]
-#     identifier = "projects"
-#     name = "Projects"
-#     url = "/projects"
-#     weight = 20
-#   [[menu.main]]
-#     identifier = "cv"
-#     name = "CV"
-#     url = "/cv"
-#     weight = 30
-#   [[menu.main]]
-#     identifier = "about"
-#     name = "About"
-#     url = "/about"
-#     weight = 40
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 30
+  [[menu.main]]
+    identifier = "shop"
+    name = "Shop"
+    url = "https://shop.bronny.design/"
+    [menu.main.params]
+      class = "link--external"
+    weight = 40
 
 [languages]
   [languages.en]

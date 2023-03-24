@@ -1,17 +1,14 @@
 <header>
-  <a
-    class="logo"
-    href="
+  <a class="logo" href="
     {{- with $.Site.Params.Logo.URL -}}
       {{- . -}}
     {{- else -}}
       {{- $.Site.BaseURL -}}
-    {{- end -}}"
-  >
+    {{- end -}}">
     {{ with $.Site.Params.Logo.Text }}
-      <div class="logo__text">{{ . }}</div>
+    <div class="logo__text">{{ . }}</div>
     {{ end }}
-    <div class="logo__chevron">></div>
+    <div class="logo__chevron">࿋</div>
     <div class="logo__cursor">⛥</div>
   </a>
 
@@ -29,9 +26,9 @@
   <nav id="menu">
     <ul class="menu--horizontal">
       {{ range $.Site.Menus.main }}
-        <li class="menu__item">
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
+      <li class="menu__item">
+        <a {{ with .Params.class -}} class="{{ . }}" {{ end -}} href="{{ .URL }}">{{ .Name }}</a>
+      </li>
       {{ end }}
     </ul>
 
@@ -44,9 +41,9 @@
 
       <ul class="menu--vertical">
         {{ range $.Site.Menus.main }}
-          <li>
-            <a class="menu__item" href="{{ .URL }}">{{ .Name }}</a>
-          </li>
+        <li>
+          <a class="menu__item {{ with .Params.class -}} {{ . }} {{ end -}}" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
         {{ end }}
       </ul>
     </div>
