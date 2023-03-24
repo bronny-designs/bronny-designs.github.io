@@ -2,7 +2,7 @@
 author = "Hugo Authors"
 title = "Rich Content"
 date = "2019-03-10"
-description = "A brief description of Hugo Shortcodes"
+description = "A brief description of Hugo's Shortcodes"
 tags = [
     "shortcodes",
     "privacy",
@@ -34,3 +34,6 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 ## Vimeo Simple Shortcode
 
 {{< vimeo_simple 48912912 >}}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2NzE1MDkzMTNdfQ==
+-->
