@@ -43,6 +43,7 @@
   "dependencies": {
     "@tabler/icons": "^2.9.0",
     "flexsearch": "^0.7.31",
+    "global": "^4.4.0",
     "normalize.css": "^8.0.1",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
