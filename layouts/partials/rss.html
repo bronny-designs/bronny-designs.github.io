@@ -1,0 +1,13 @@
+<script src="/js/rss-parser.min.js"></script>
+<script>
+  const CORS_PROXY = "https://black-sun-7632.fly.dev/"
+  let parser = new RSSParser();
+  parser.parseURL(CORS_PROXY + 'https://bronny-builds.tumblr.com/rss', function (err, feed) {
+    if (err) throw err;
+    console.log(feed.title);
+    feed.items.forEach(function (entry) {
+      console.log(entry.title + ':' + entry.link);
+    })
+  })
+
+</script>

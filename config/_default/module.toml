@@ -44,3 +44,6 @@
 [[mounts]]
   source = "node_modules/@tabler/icons/icons"
   target = "assets/tabler-icons"
+[[mounts]]
+  source = "node_modules/rss-parser/dist"
+  target = "static/js/rss-parser"

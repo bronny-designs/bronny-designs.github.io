@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RSS Feed</title>
+    <link>/</link>
+    <atom:id>tag:an.example,2020-01-10:/</atom:id>
+    <atom:link href="/feed.rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A</title>
+      <link>/a</link>
+      <guid>/a</guid>
+      <description>Some Stuff</description>
+    </item>
+    <item>
+      <title>B</title>
+      <link>/b</link>
+      <guid>/b</guid>
+      <description>Some More Stuff</description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>/c</link>
+      <guid>/c</guid>
+      <description>Some Stuff Again</description>
+    </item>
+  </channel>
+</rss>
