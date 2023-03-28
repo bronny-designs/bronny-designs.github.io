@@ -16,4 +16,4 @@ A big thanks to the creators!
 
 ## Code Monkey
 
-This site was build by [Ashley Luna](https://github.com/dualmoon)
+This site was built (with love!) by [Ashley Luna](https://github.com/dualmoon)
