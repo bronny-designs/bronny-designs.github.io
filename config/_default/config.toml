@@ -133,7 +133,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "shop"
     name = "Shop"
-    url = "https://www.facebook.com/bronnydesigns/"
+    url = "https://shop.bronny.design/"
     [menu.main.params]
       external = true
     weight = 40
