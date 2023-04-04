@@ -115,16 +115,16 @@ enableRobotsTXT = true
     formatString = "mailto:?subject={title}&body={url}"
 
 [menu]
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
-    weight = 10
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects"
-    weight = 20
+  # [[menu.main]]
+  #   identifier = "blog"
+  #   name = "Blog"
+  #   url = "/blog"
+  #   weight = 10
+  # [[menu.main]]
+  #   identifier = "projects"
+  #   name = "Projects"
+  #   url = "/projects"
+  #   weight = 20
   [[menu.main]]
     identifier = "about"
     name = "About"
@@ -133,7 +133,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "shop"
     name = "Shop"
-    url = "https://shop.bronny.design/"
+    url = "https://www.facebook.com/bronnydesigns/"
     [menu.main.params]
       external = true
     weight = 40
